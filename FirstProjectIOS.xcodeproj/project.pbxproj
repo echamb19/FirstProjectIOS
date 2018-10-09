@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DBCABCEB216D21BC004726BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCABCEA216D21BC004726BE /* AppDelegate.swift */; };
-		DBCABCED216D21BC004726BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCABCEC216D21BC004726BE /* ViewController.swift */; };
+		DBCABCED216D21BC004726BE /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCABCEC216D21BC004726BE /* ColorChangeViewController.swift */; };
 		DBCABCF0216D21BC004726BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCABCEE216D21BC004726BE /* Main.storyboard */; };
 		DBCABCF2216D21BC004726BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCABCF1216D21BC004726BE /* Assets.xcassets */; };
 		DBCABCF5216D21BC004726BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCABCF3216D21BC004726BE /* LaunchScreen.storyboard */; };
+		DBCABD01216D2706004726BE /* ColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCABD00216D2706004726BE /* ColorTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DBCABCE7216D21BC004726BE /* FirstProjectIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProjectIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCABCEA216D21BC004726BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBCABCEC216D21BC004726BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBCABCEC216D21BC004726BE /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
 		DBCABCEF216D21BC004726BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBCABCF1216D21BC004726BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBCABCF4216D21BC004726BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBCABCF6216D21BC004726BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCABD00216D2706004726BE /* ColorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,10 @@
 		DBCABCE9216D21BC004726BE /* FirstProjectIOS */ = {
 			isa = PBXGroup;
 			children = (
+				DBCABCFF216D267D004726BE /* View */,
+				DBCABCFE216D2672004726BE /* Model */,
+				DBCABCFD216D2661004726BE /* Controller */,
 				DBCABCFC216D241B004726BE /* Resources */,
-				DBCABCEC216D21BC004726BE /* ViewController.swift */,
-				DBCABCEE216D21BC004726BE /* Main.storyboard */,
-				DBCABCF3216D21BC004726BE /* LaunchScreen.storyboard */,
 			);
 			path = FirstProjectIOS;
 			sourceTree = "<group>";
@@ -70,6 +72,31 @@
 				DBCABCF6216D21BC004726BE /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBCABCFD216D2661004726BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DBCABCEC216D21BC004726BE /* ColorChangeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBCABCFE216D2672004726BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBCABD00216D2706004726BE /* ColorTool.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBCABCFF216D267D004726BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBCABCEE216D21BC004726BE /* Main.storyboard */,
+				DBCABCF3216D21BC004726BE /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBCABCED216D21BC004726BE /* ViewController.swift in Sources */,
+				DBCABCED216D21BC004726BE /* ColorChangeViewController.swift in Sources */,
 				DBCABCEB216D21BC004726BE /* AppDelegate.swift in Sources */,
+				DBCABD01216D2706004726BE /* ColorTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
