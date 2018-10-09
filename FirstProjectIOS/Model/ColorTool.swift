@@ -13,10 +13,11 @@ public class ColorTool
 {
     public func createRandomColor() -> UIColor
     {
-        let redPercent : CGFloat = CGFloat ((arc4random() % 256) / 255)
-        let greenPercent : CGFloat = CGFloat ((arc4random() % 256) / 256)
-        let bluePercent: CGFloat = CGFloat ((arc4random() % 256) / 255)
+        let redPercent : CGFloat = CGFloat (Double ((arc4random() % 256)) / 255.00) //The double allows it to divide by a decimal. It MUST be Forced [called casting]
+        let greenPercent : CGFloat = CGFloat (Double ((arc4random() % 256)) / 256.00)
+        let bluePercent: CGFloat = CGFloat (Double ((arc4random() % 256)) / 255.00)
         
         return UIColor(red: redPercent, green: greenPercent, blue: bluePercent, alpha: CGFloat(100))
+        // inside the parens, (Name: value, Name: Value, Name: Value)
     }
 }
