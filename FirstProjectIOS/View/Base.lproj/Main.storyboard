@@ -21,7 +21,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ek-pU-mqv">
                                 <rect key="frame" x="77" y="251" width="220" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Touch the Button"/>
                                 <connections>
                                     <action selector="colorClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3lh-Gr-nYL"/>
                                 </connections>

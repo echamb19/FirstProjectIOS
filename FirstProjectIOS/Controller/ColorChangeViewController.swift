@@ -15,7 +15,7 @@ public class ColorColorChangeViewController: UIViewController
     @IBOutlet weak var FirstButton : UIButton! //Weak = Throw me away when I'm not being used
     
    public override func viewDidLoad() -> Void
-   {
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
